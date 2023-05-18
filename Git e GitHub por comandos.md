@@ -63,7 +63,7 @@ git pull // atualizar / baixar branch
 git clone git@github.com:filipereis17/github-course.git [diretório]
 ```
 
-##Branch
+## Branch
 ```
 git checkout -b testing //Cria um branch com nome 'testing'
 git branch -D testing //Exlui branch
@@ -101,7 +101,7 @@ git push origin :1.0.0
 `git revert 56c455c348511943ccab9d8d5e9614a3084a81f`
 
 
-##Comandos terminal
+## Comandos terminal
 ```
 mkdir NomeDaPasta
 ls  //listar arquivos
@@ -109,7 +109,7 @@ ls -la //listar ocultos
 cd ..
 ```
 
-Editor vi
+## Editor vi
 ```
 vi Readme.md //Editor texto
 	i //inserir texto
