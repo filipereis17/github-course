@@ -41,6 +41,7 @@ git remote add origin https://github.com/filipereis17/Teste.git
 git remote //consulta
 git remote -v //Mais informações
 git push -u origin master //Envia os arquivos para o repositório
+git pull // atualizar / baixar branch
 
 ##Clone
 git clone git@github.com:filipereis17/github-course.git [diretório]
