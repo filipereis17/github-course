@@ -30,6 +30,9 @@ git log author="Filipe" //Procura por autor
 git shortlog
 git shortlog -sn //Somente nome da pessoa
 git log --graph
+git log -p meus-arquivos //Histórico de um arquivo
+git log --after="MMM DD YYYY" //Histórico de commits
+git log --before="MMM DD YYYY"
 ```
 
 ## Desfazendo alterações
@@ -65,8 +68,11 @@ git clone git@github.com:filipereis17/github-course.git [diretório]
 
 ## Branch
 ```
+git checkout stage //Muda para a branch 'stage'
 git checkout -b testing //Cria um branch com nome 'testing'
 git branch -D testing //Exlui branch
+git branch -m novo-nome-da-branch //Renomeia branch
+git checkout --orphan minha-branch-orfa //Branch sem conexão à principal
 ```
 
 ## Merge vs Rebase
@@ -100,6 +106,8 @@ git push origin :1.0.0
 ### Volta sem apagar do histórico
 `git revert 56c455c348511943ccab9d8d5e9614a3084a81f`
 
+## Links de sites
+[TreinaWeb - Comandos](https://www.treinaweb.com.br/blog/comandos-do-git-que-voce-precisa-conhecer-parte-1#:~:text=Para%20mudar%20para%20uma%20outra,passando%20o%20nome%20da%20branch.&text=Se%20voc%C3%AA%20adicionar%20%2Db%20%2C%20uma%20nova%20branch%20ser%C3%A1%20criada.) 
 
 ## Comandos terminal
 ```
@@ -107,6 +115,7 @@ mkdir NomeDaPasta
 ls  //listar arquivos
 ls -la //listar ocultos
 cd ..
+clear // limpa a tela
 ```
 
 ## Editor vi
