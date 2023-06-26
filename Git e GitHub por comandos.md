@@ -106,6 +106,10 @@ git push origin :1.0.0
 ### Volta sem apagar do histórico
 `git revert 56c455c348511943ccab9d8d5e9614a3084a81f`
 
+## Correção de erros
+### Filename too long
+git config --system core.longpaths true
+
 ## Links de sites
 [TreinaWeb - Comandos](https://www.treinaweb.com.br/blog/comandos-do-git-que-voce-precisa-conhecer-parte-1#:~:text=Para%20mudar%20para%20uma%20outra,passando%20o%20nome%20da%20branch.&text=Se%20voc%C3%AA%20adicionar%20%2Db%20%2C%20uma%20nova%20branch%20ser%C3%A1%20criada.) 
 
